@@ -5,9 +5,10 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 
 //dotenv conig
-// dotenv.config();
+dotenv.config();
 
 //mongodb connection
+connectDB();
 
 // dotenv.config();
 //rest obejct
